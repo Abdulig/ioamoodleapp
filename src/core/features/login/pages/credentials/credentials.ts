@@ -319,6 +319,13 @@ export class CoreLoginCredentialsPage implements OnInit, OnDestroy {
     }
 
     /**
+     * Open guest page
+     */
+    redirectToGuestPage(): void {
+        window.location.href = 'https://iklas.in/ioa-guest/';
+    }
+
+    /**
      * Open settings page.
      */
     openSettings(): void {
